@@ -2,7 +2,7 @@
 set -e
  
 CODEGEN_VERSION="1.23.1"
- 
+# gewkek
 wget http://github.com/kubernetes/code-generator/archive/kubernetes-${CODEGEN_VERSION}.tar.gz
 mkdir -p ${GOPATH}/src/k8s.io/code-generator
 tar zxvf kubernetes-${CODEGEN_VERSION}.tar.gz --strip 1 -C ${GOPATH}/src/k8s.io/code-generator/
